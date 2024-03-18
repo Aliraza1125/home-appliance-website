@@ -6,11 +6,13 @@
   box-sizing: border-box;
   font-family: "Poppins", Times, serif;
 
+
 }
 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+
 }
 
 /* header  */
@@ -213,6 +215,7 @@ nav {
   .rightflex {
     display: none;
   }
+
 
   .leftfirst1 {
     margin-left: 50px !important;
@@ -454,7 +457,13 @@ nav {
 
 .secondgrid1 {
   background-color: white;
+  transition: box-shadow 0.3s ease; /* Adding transition for smooth effect */
 }
+
+.secondgrid1:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+}
+
 
 .secondgrid1 img {
   width: 100%;
@@ -777,8 +786,8 @@ nav {
 
 .fifthrightpic {
   position: absolute;
-  right: -100px;
-  bottom: -35px;
+left: 20%;
+  overflow: hidden;
 }
 
 /* Sixthscreen  */
