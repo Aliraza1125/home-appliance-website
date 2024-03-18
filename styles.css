@@ -1,0 +1,1030 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Times, serif;
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* header  */
+
+nav {
+  background-color: white;
+  padding: 10px;
+
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.headerloc {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 14px;
+  color: #656565;
+}
+
+.headertime {
+  font-size: 14px;
+}
+
+.headerphone {
+  font-size: 14px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: #0391d3;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: 1px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: darkblue;
+}
+
+.fa-location-dot {
+  color: #3ca7db;
+}
+
+.fa-clock {
+  color: #3ca7db;
+}
+
+.fa-phone {
+  color: #3ca7db;
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  /* Styles for mobile Screens */
+  .leftfirst1 {
+    margin-left: 10px !important;
+    margin-top: 50px !important;
+  }
+
+  .leftfourtext {
+    flex-wrap: wrap;
+  }
+
+  .rightflex {
+    display: none;
+  }
+
+  .homeappliance {
+    padding: 0px 0px;
+  }
+
+  .container {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headtexticon {
+    display: none !important;
+  }
+
+  .item .item1 {
+    width: 100%;
+  }
+
+  .notfind {
+ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px !important;
+    margin-bottom: 0px !important;
+ 
+  }
+
+  .flexright .picEng {
+    display: none !important;
+  }
+
+  .gridcontent {
+    grid-template-rows: 1fr 1fr !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  .thirdscreen {
+    background-color: #3ca7db;
+    margin-top: 50px !important;
+    padding: 40px 10px !important;
+  }
+
+  .fourscreen {
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    padding: 40px 10px !important;
+  }
+
+  .gridcontent4 {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: repeat(6 , 300px) !important;
+  }
+
+  .flexright {
+    display: none;
+  }
+
+  .leftpic {
+    display: none;
+  }
+
+  .back-color {
+    display: block !important;
+  }
+
+  .homeappliance {
+    padding: 20px 10px !important;
+  }
+
+  .grid2 , .grid3, .grid4{
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .fifthscreen{
+    padding: 10px 0px !important;
+    display: block !important;
+  }
+  .flexright{
+    display: none !important;
+  }
+  .sixthscreen{
+    padding: 10px 10px !important;
+  }
+  .gridcontent6{
+    grid-template-rows: 1fr !important;
+    grid-template-columns: 1fr !important;
+    row-gap: 60px !important;
+  }
+  .sevenscreen{
+    padding: 10px 10px !important;
+  }
+  .gridcontent7{
+    grid-template-rows: 1fr !important;
+    grid-template-columns: 1fr !important;
+  }
+  .contactinfo{
+    display: none !important;
+  }
+
+  footer{
+    padding: 0px 10px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  /* Styles for Tablet Screens */
+  .rightflex {
+    display: none;
+  }
+
+  .leftfirst1 {
+    margin-left: 50px !important;
+    margin-top: 50px !important;
+  }
+
+  .notfindbutton{
+    padding: 10px 25px !important;
+  }
+
+
+  .container {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3px;
+    column-gap: 3px;
+  }
+
+  .fourscreen{
+    padding: 10px 10px !important;
+  }
+
+  .gridcontent4 {
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: repeat(2 , 300px) !important;
+  }
+
+  .homeappliance{
+    padding: 20px 10px !important;
+  }
+  .thirdscreen{
+    padding: 20px 10px !important;
+  }
+  .fifthscreen{
+    padding: 20px 10px !important;
+  }
+
+  .sixthscreen{
+    padding: 10px 10px !important;
+  }
+  .gridcontent6{
+    grid-template-rows: 1fr !important;
+    grid-template-columns: 1fr !important;
+    row-gap: 60px !important;
+  }
+
+  .sevenscreen{
+    padding: 10px 10px !important;
+  }
+  .gridcontent7{
+    grid-template-rows: 1fr !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .picEng {
+    position: absolute !important;
+    bottom: 33px !important;
+    right: -2% !important;
+  }
+  
+  .picEng img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  .flexleft{
+    padding: 0px 0px;
+  }
+  .contactinfo {
+
+  
+    width: 30% !important;
+    height: 90% !important;
+   padding: 25px 20px !important;
+  
+    /* Adjust the values as needed */
+  }
+  
+
+  
+
+}
+
+/* Header  */
+
+/* First Screen  */
+
+.firstscreen {
+  width: 100%;
+  display: flex;
+  margin-bottom: 40px;
+  background-color: #F8F8F8;
+  /* height: 0%; */
+
+}
+
+.leftfirst {
+  flex: 1;
+
+}
+
+.leftfirst1 {
+  margin-left: 130px;
+  margin-top: 50px;
+
+}
+
+.rightflex {
+  position: relative;
+}
+
+.rightfleximage {
+  position: relative;
+  z-index: 1;
+}
+
+.rightfleximage img {
+  width: 100%;
+}
+
+.rightflex>div:last-child {
+  height: 100%;
+  width: 100%;
+  background-color: #3ca7db;
+  border-top-left-radius: 80%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.leftfirsttext {
+  text-align: left;
+  color: #000000;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.leftsecondtext {
+  text-align: left;
+  color: #000000;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.leftthirdtext {
+  text-align: left;
+  color: #515151;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.leftfourtext {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.leftfourtext1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.leftfourtext1size {
+  color: #515151;
+  font-size: 24px;
+}
+
+.firstnum {
+  color: #0391d3;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.buttonfirst {
+  background-color: #0391d3;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 20px 70px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+/* First Screen  */
+
+/* Second Screen  */
+.secondpage {
+  background-color: #ffffff;
+
+}
+
+.headtext {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+
+
+}
+
+.headtexticon {
+  position: relative;
+  top: 41px;
+}
+
+.headtext1 {
+  color: #2e2e2e;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.homeappliance {
+  padding: 20px 200px;
+}
+
+.homeappliance1 {
+  height: 90%;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 3px;
+  column-gap: 3px;
+}
+
+.secondgrid1 {
+  background-color: white;
+}
+
+.secondgrid1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.notfind {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 50px;
+}
+
+.notfinttext1 {
+  color: #5c5c5c;
+  text-align: right;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.notfinttext2 {
+  color: #a4a4a4;
+  text-align: right;
+  font-size: 22px;
+}
+
+
+.notfindbutton {
+  padding: 10px 25px;
+}
+
+
+.item {
+  background-color: rgb(255, 255, 255);
+
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+}
+
+.item:hover {
+  transform: scale(1.02);
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}
+
+/* 2nd screen */
+.main-content {
+  background-color: white;
+
+  margin-top: 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.back-color {
+  background-color: #3ca7db;
+  position: relative;
+  top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexleft {
+  flex: 0.6;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  position: relative;
+
+
+}
+
+.leftpic {
+  position: absolute;
+  left: -55px;
+  top: -40px;
+  z-index: -1;
+}
+
+.flexleft1 span {
+  text-align: left;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.flexleft2 {
+  margin-top: 20px;
+}
+
+.flexleft2 span {
+  text-align: left;
+  font-size: 14px;
+  color: #d3e8e0;
+  text-align: justify;
+}
+
+.flexleftbutt {
+  margin-top: 20px;
+}
+
+.flexleftbutton {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.flexleftbutton:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.flexright {
+  flex: 1;
+  position: relative;
+  display: flex;
+
+}
+
+.picEng {
+  position: absolute;
+  bottom: -25px;
+  right: -10%;
+}
+
+/* 2nd screen */
+
+/* Third Screen */
+
+.thirdscreen {
+  background-color: #3ca7db;
+  margin-top: 50px;
+  padding: 40px 150px;
+}
+
+.mainheading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.gridcontent {
+  width: 100%;
+  height: 85%;
+
+  margin-top: 10px;
+  background-color: #3ca7db;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.grid1 {
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  /* Adjust the values as needed */
+}
+
+.gridthirdtext1 {
+  text-align: start;
+  font-size: 14px;
+  color: #2f2f2f;
+  font-weight: bold;
+  font-family: "Poppins", Times, serif;
+}
+
+.gridthirdtext2 {
+  text-align: start;
+  font-size: 14px;
+  color: #afafaf;
+}
+
+.gridthirdtext3 {
+  text-align: start;
+  font-size: 14px;
+  color: black;
+}
+
+.grid2 {
+  background-image: url("assets/pic36.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.grid3 {
+  background-image: url("assets/pic37.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.grid4 {
+  background-image: url("assets/pic38.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Four Screen   */
+
+.fourscreen {
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  padding: 40px 150px;
+}
+
+.mainheading4 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.gridcontent4 {
+  width: 100%;
+  height: 90%;
+
+  margin-top: 10px;
+
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 13px;
+  column-gap: 13px;
+  position: relative;
+}
+
+.fourgrid1 {
+  padding: 10px;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 10px;
+
+  align-items: center;
+
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  border: 1px solid #3ca7db;
+  position: relative;
+}
+
+/* Adding shadow */
+.fourgrid1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 10px rgba(122, 122, 217, 0.5);
+  /* Same color as border shadow */
+}
+
+.fourstep1 {
+  background-color: #3ca7db;
+
+  width: 113px;
+  height: 101px;
+  position: absolute;
+  top: -45px;
+  left: -5px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(122, 122, 217, 0.5);
+  /* Shadow with the same color as the border shadow */
+}
+
+.fourstep1text {
+  font-size: 24px;
+  color: white;
+  text-align: justify;
+}
+
+.text {
+  margin-left: 20px;
+}
+
+.fourheading {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.fourtext {
+  font-size: 16px;
+  color: grey;
+  text-align: justify;
+}
+
+/* Fifth screen  */
+
+.fifthscreen {
+  background-color: #3ca7db;
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  padding: 20px 150px;
+  display: flex;
+}
+
+.fifthrightpic {
+  position: absolute;
+  right: -100px;
+  bottom: -37px;
+}
+
+/* Sixthscreen  */
+
+.sixthscreen {
+  background-color: #ffffff;
+  padding: 20px 150px;
+}
+
+.gridcontent6 {
+  width: 100%;
+  height: 70%;
+  margin-top: 80px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  position: relative;
+}
+
+.sixgrid1 {
+  padding: 10px;
+
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  border: 1px solid #3ca7db;
+  position: relative;
+}
+
+/* Adding shadow */
+.sixgrid1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 10px rgba(122, 122, 217, 0.5);
+  /* Same color as border shadow */
+}
+
+.sixpic {
+  position: absolute;
+  top: -50px;
+  left: 40%;
+}
+
+.text6 {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.sixheading {
+  font-weight: bold;
+  font-size: 24px;
+  color: #4e4e4e;
+
+  margin-bottom: 20px;
+}
+
+.sixtext {
+  font-size: 16px;
+  color: #afafaf;
+  text-align: justify;
+}
+
+/* Seven Screen  */
+
+.sevenscreen {
+  background-color: #3ca7db;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px 150px;
+}
+
+.mainheading7 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.gridcontent7 {
+  width: 100%;
+  height: 70%;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  position: relative;
+}
+
+.sevengrid1 {
+  padding: 7px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  border: 2px solid #3ca7db;
+  position: relative;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sevengrid1:nth-child(4) {
+  grid-row: span 2;
+  /* Spanning two rows */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Adding shadow */
+.sevengrid1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 10px rgba(122, 122, 217, 0.5);
+  /* Same color as border shadow */
+}
+
+.seventext1 {
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.seventext2 {
+  color: #afafaf;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+/* seventh scree  */
+
+/* Eight Screen  */
+.eightscreen {
+  background-color: #3ca7db;
+  position: relative;
+}
+
+.mapimage {
+  width: 100%;
+  height: 500px;
+}
+
+.contactinfo {
+  position: absolute;
+  background-color: #ffffff;
+  width: 20%;
+  height: 87%;
+  left: 250px;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Adjust the values as needed */
+}
+
+.contact {
+  font-size: 32px;
+  color: #2e2e2e;
+  font-weight: bold;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.standardtiem {
+  margin-left: 15px;
+  color: black;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.phnnumbers {
+  margin-left: 15px;
+  color: black;
+}
+
+/* Eight Screen  */
+
+footer {
+  background-color: #f5f7f9;
+  width: 100%;
+  height: 100px;
+  padding: 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.firsttextf {
+  font-size: 14px;
+  color: #a4a5a5;
+  margin-left: 10px;
+}
+
+.second {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #999999;
+  font-size: 14px;
+}
