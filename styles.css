@@ -280,7 +280,7 @@ nav {
     height: auto !important;
   }
   .flexleft{
-    padding: 0px 0px;
+  padding: 0px 0px !important;
   }
   .contactinfo {
 
@@ -526,9 +526,7 @@ nav {
 
 .flexleft {
   flex: 0.6;
-  padding-top: 30px;
-  padding-left: 50px;
-  padding-bottom: 50px;
+  padding: 15px 20px;
   position: relative;
 
 
@@ -560,7 +558,7 @@ nav {
 }
 
 .flexleftbutt {
-  margin-top: 20px;
+  margin-top: 45px;
 }
 
 .flexleftbutton {
@@ -780,7 +778,7 @@ nav {
 .fifthrightpic {
   position: absolute;
   right: -100px;
-  bottom: -37px;
+  bottom: -35px;
 }
 
 /* Sixthscreen  */
