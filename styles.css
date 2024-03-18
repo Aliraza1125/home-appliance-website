@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   padding: 0;
@@ -6,13 +6,11 @@
   box-sizing: border-box;
   font-family: "Poppins", Times, serif;
 
-
 }
 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-
 }
 
 /* header  */
@@ -20,7 +18,6 @@ body {
 nav {
   background-color: white;
   padding: 10px;
-
 }
 
 .nav-items {
@@ -78,11 +75,7 @@ nav {
   color: #3ca7db;
 }
 
-
-
-
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-
+@media only screen and (min-width: 320px) and (max-width: 425px) {
   /* Styles for mobile Screens */
   .leftfirst1 {
     margin-left: 10px !important;
@@ -102,10 +95,9 @@ nav {
   }
 
   .container {
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 1fr !important ;
+    grid-template-columns: 1fr !important;
     align-items: center;
     justify-content: center;
   }
@@ -119,7 +111,6 @@ nav {
   }
 
   .notfind {
- 
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -127,7 +118,6 @@ nav {
     justify-content: center;
     gap: 40px !important;
     margin-bottom: 0px !important;
- 
   }
 
   .flexright .picEng {
@@ -153,7 +143,7 @@ nav {
 
   .gridcontent4 {
     grid-template-columns: 1fr !important;
-    grid-template-rows: repeat(6 , 300px) !important;
+    grid-template-rows: repeat(6, 300px) !important;
   }
 
   .flexright {
@@ -172,60 +162,218 @@ nav {
     padding: 20px 10px !important;
   }
 
-  .grid2 , .grid3, .grid4{
+  .grid2,
+  .grid3,
+  .grid4 {
     height: 180px;
     width: 100%;
     background-size: cover;
   }
 
-  .fifthscreen{
+  .fifthscreen {
     padding: 10px 0px !important;
     display: block !important;
   }
-  .flexright{
+  .flexright {
     display: none !important;
   }
-  .sixthscreen{
+  .sixthscreen {
     padding: 10px 10px !important;
   }
-  .gridcontent6{
+  .gridcontent6 {
     grid-template-rows: 1fr !important;
     grid-template-columns: 1fr !important;
     row-gap: 60px !important;
   }
-  .sevenscreen{
+  .sevenscreen {
     padding: 10px 10px !important;
   }
-  .gridcontent7{
+  .gridcontent7 {
     grid-template-rows: 1fr !important;
     grid-template-columns: 1fr !important;
   }
-  .contactinfo{
+  .contactinfo {
     display: none !important;
   }
 
-  footer{
-    padding: 0px 10px !important;
-  }
+footer{
+  padding: 0px 0px !important ;
 }
+  .footerdiv{
+    width: 100%;
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    padding: 0px 0px ;
 
+
+  }
+
+  }
+  .first{
+    width: 100% !important;
+    display: flex !important;
+  
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  .second {
+    display: flex;
+width: 100% !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   /* Styles for Tablet Screens */
+
   .rightflex {
     display: none;
   }
 
-
   .leftfirst1 {
-    margin-left: 50px !important;
-    margin-top: 50px !important;
+    margin-left: 10px !important;
+    margin-top: 10px !important;
   }
 
-  .notfindbutton{
+  .notfindbutton {
     padding: 10px 25px !important;
   }
 
+  .container {
+  
+    grid-template-rows: 1fr 1fr ifr !important;
+    grid-template-columns:   1fr 1fr  !important;
+   
+  }
+
+  .fourscreen {
+    padding: 10px 10px !important;
+  }
+
+  .gridcontent4 {
+    grid-template-columns: 1fr  !important;
+    grid-template-rows: repeat(6, 300px) !important;
+  }
+
+  .homeappliance {
+    padding: 20px 10px !important;
+  }
+  .thirdscreen {
+    padding: 20px 10px !important;
+  }
+  .fifthscreen {
+    padding: 20px 10px !important;
+  }
+
+  .sixthscreen {
+    padding: 10px 10px !important;
+  }
+  .gridcontent6 {
+    grid-template-rows: 1fr !important;
+    grid-template-columns: 1fr  1fr !important;
+    row-gap: 60px !important;
+  }
+
+  .sevenscreen {
+    padding: 10px 10px !important;
+  }
+  .gridcontent7 {
+    grid-template-rows: 1fr !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .picEng {
+ display: none;
+  }
+
+
+  .picEng img {
+   
+   width: 400px !important;  
+  
+  }
+  .flexleft {
+    padding: 0px 0px !important;
+    flex: 1 !important;
+  }
+  .contactinfo {
+    width: 50% !important;
+    height: 70% !important;
+    left: 20px !important;
+
+    /* Adjust the values as needed */
+  }
+  .firstscreen {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .rightflex {
+    display: none;
+  }
+  .leftpic {
+    display: none;
+  }
+
+  .back-color {
+    background-color: #3ca7db;
+    position: relative !important;
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .gridcontent {
+    grid-template-rows: 1fr !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .grid2,
+  .grid3,
+  .grid4 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+  }
+ footer{
+  padding: 0px 0px !important;
+ }
+ .flexleftbutt {
+  margin-top: 15px !important;
+ }
+ .flexleft2{
+margin-top: 10px;
+ }
+
+
+
+ .fifthrightpic{
+
+display: none !important;
+ }
+ .flexright{
+  flex: 0 !important;
+ }
+  
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  /* Styles for laptop Screens */
+
+  .rightflex {
+    display: none !important;
+  }
+
+  .leftfirst1 {
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+  }
+
+  .notfindbutton {
+    padding: 10px 25px !important;
+  }
 
   .container {
     height: 100%;
@@ -237,67 +385,99 @@ nav {
     column-gap: 3px;
   }
 
-  .fourscreen{
+  .fourscreen {
     padding: 10px 10px !important;
   }
 
   .gridcontent4 {
-    grid-template-columns: 1fr 1fr !important;
-    grid-template-rows: repeat(2 , 300px) !important;
+    grid-template-columns: 1fr 1fr!important;
+    grid-template-rows: repeat(3, 300px) !important;
   }
 
-  .homeappliance{
+  .homeappliance {
     padding: 20px 10px !important;
   }
-  .thirdscreen{
+  .thirdscreen {
     padding: 20px 10px !important;
   }
-  .fifthscreen{
+  .fifthscreen {
     padding: 20px 10px !important;
   }
 
-  .sixthscreen{
+  .sixthscreen {
     padding: 10px 10px !important;
   }
-  .gridcontent6{
+  .gridcontent6 {
     grid-template-rows: 1fr !important;
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr 1fr !important;
     row-gap: 60px !important;
   }
 
-  .sevenscreen{
+  .sevenscreen {
     padding: 10px 10px !important;
   }
-  .gridcontent7{
+  .gridcontent7 {
     grid-template-rows: 1fr !important;
     grid-template-columns: 1fr 1fr !important;
   }
+
   .picEng {
-    position: absolute !important;
-    bottom: 33px !important;
-    right: -2% !important;
+    
+    bottom: 1% !important;
+    right: 4% !important;
   }
-  
+
+
   .picEng img {
-    max-width: 100% !important;
-    height: auto !important;
+   
+   width: 400px !important;  
+  
   }
-  .flexleft{
-  padding: 0px 0px !important;
+  .flexleft {
+    padding: 0px 0px !important;
+    flex: 1 !important;
   }
   .contactinfo {
-
-  
     width: 30% !important;
-    height: 90% !important;
-   padding: 25px 20px !important;
-  
+    height: 70% !important;
+    left: 20px !important;
+
     /* Adjust the values as needed */
   }
-  
+  .firstscreen {
+    width: 100%;
+    overflow-x: hidden;
+  }
 
-  
+  .rightflex {
+    display: none;
+  }
+  .leftpic {
+    display: none;
+  }
 
+  .back-color {
+    background-color: #3ca7db;
+    position: relative !important;
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .gridcontent {
+    grid-template-rows: 1fr !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .grid2,
+  .grid3,
+  .grid4 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+  }
+ footer{
+  padding: 0px 0px !important;
+ }
+  
 }
 
 /* Header  */
@@ -308,20 +488,17 @@ nav {
   width: 100%;
   display: flex;
   margin-bottom: 40px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   /* height: 0%; */
-
 }
 
 .leftfirst {
   flex: 1;
-
 }
 
 .leftfirst1 {
   margin-left: 130px;
-  margin-top: 50px;
-
+  margin-top: 10px;
 }
 
 .rightflex {
@@ -337,7 +514,7 @@ nav {
   width: 100%;
 }
 
-.rightflex>div:last-child {
+.rightflex > div:last-child {
   height: 100%;
   width: 100%;
   background-color: #3ca7db;
@@ -406,16 +583,11 @@ nav {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-
-
-
-
 /* First Screen  */
 
 /* Second Screen  */
 .secondpage {
   background-color: #ffffff;
-
 }
 
 .headtext {
@@ -423,8 +595,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: white;
-
-
 }
 
 .headtexticon {
@@ -464,7 +634,6 @@ nav {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
 }
 
-
 .secondgrid1 img {
   width: 100%;
   height: 100%;
@@ -492,18 +661,15 @@ nav {
   font-size: 22px;
 }
 
-
 .notfindbutton {
   padding: 10px 25px;
 }
-
 
 .item {
   background-color: rgb(255, 255, 255);
 
   cursor: pointer;
   transition: transform 0.3s ease;
-
 }
 
 .item:hover {
@@ -513,7 +679,6 @@ nav {
 .item1 {
   grid-row-start: 1;
   grid-row-end: 3;
-
 }
 
 /* 2nd screen */
@@ -537,8 +702,6 @@ nav {
   flex: 0.6;
   padding: 15px 20px;
   position: relative;
-
-
 }
 
 .leftpic {
@@ -588,7 +751,6 @@ nav {
   flex: 1;
   position: relative;
   display: flex;
-
 }
 
 .picEng {
@@ -713,7 +875,7 @@ nav {
   display: flex;
   margin-top: 40px;
   margin-left: 10px;
-  
+
   align-items: center;
 
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
@@ -786,8 +948,8 @@ nav {
 
 .fifthrightpic {
   position: absolute;
-left: 20%;
-  overflow: hidden;
+  left: 20%;
+  bottom: -12%;
 }
 
 /* Sixthscreen  */
@@ -1008,7 +1170,7 @@ left: 20%;
 footer {
   background-color: #f5f7f9;
   width: 100%;
-  height: 100px;
+
   padding: 0px 150px;
   display: flex;
   align-items: center;
